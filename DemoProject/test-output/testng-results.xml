@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-02-08T20:35:00 IST" name="Suite" finished-at="2023-02-08T20:35:00 IST" duration-ms="59">
+  <suite started-at="2023-02-08T21:46:45 IST" name="Suite" finished-at="2023-02-08T21:46:45 IST" duration-ms="58">
     <groups>
     </groups>
-    <test started-at="2023-02-08T20:35:00 IST" name="Test" finished-at="2023-02-08T20:35:00 IST" duration-ms="59">
+    <test started-at="2023-02-08T21:46:45 IST" name="Test" finished-at="2023-02-08T21:46:45 IST" duration-ms="58">
       <class name="test.TestScenarios">
-        <test-method is-config="true" signature="before()[pri:0, instance:test.TestScenarios@393671df]" started-at="2023-02-08T20:35:00 IST" name="before" finished-at="2023-02-08T20:35:00 IST" duration-ms="10" status="PASS">
+        <test-method is-config="true" signature="before()[pri:0, instance:test.TestScenarios@6a192cfe]" started-at="2023-02-08T21:46:45 IST" name="before" finished-at="2023-02-08T21:46:45 IST" duration-ms="10" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- before -->
-        <test-method signature="validateForeignPlayers()[pri:0, instance:test.TestScenarios@393671df]" started-at="2023-02-08T20:35:00 IST" name="validateForeignPlayers" finished-at="2023-02-08T20:35:00 IST" duration-ms="14" status="PASS">
+        <test-method signature="validateForeignPlayers()[pri:0, instance:test.TestScenarios@6a192cfe]" started-at="2023-02-08T21:46:45 IST" name="validateForeignPlayers" description="Test to validate team has only 4 foreign players" finished-at="2023-02-08T21:46:45 IST" duration-ms="13" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateForeignPlayers -->
-        <test-method signature="validateWicketKeepers()[pri:0, instance:test.TestScenarios@393671df]" started-at="2023-02-08T20:35:00 IST" name="validateWicketKeepers" finished-at="2023-02-08T20:35:00 IST" duration-ms="2" status="PASS">
+        <test-method signature="validateWicketKeepers()[pri:0, instance:test.TestScenarios@6a192cfe]" started-at="2023-02-08T21:46:45 IST" name="validateWicketKeepers" description="Test to validate team has atleast 1 wicket keeper" finished-at="2023-02-08T21:46:45 IST" duration-ms="4" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateWicketKeepers -->
