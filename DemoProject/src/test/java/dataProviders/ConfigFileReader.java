@@ -11,6 +11,12 @@ public class ConfigFileReader {
 	private FileInputStream fis;
 	private final String propertyFilePath = "config//Configuration.properties";
 
+	/**
+	 * Read Config properties file
+	 * 
+	 * 
+	 * @throws IOException
+	 */
 	public ConfigFileReader() throws IOException {
 		try {
 			fis = new FileInputStream(propertyFilePath);
@@ -23,6 +29,12 @@ public class ConfigFileReader {
 		}
 	}
 
+	/**
+	 * Get path of input test data json from properties file
+	 * 
+	 * 
+	 * @return inputDataPath
+	 */
 	public String getInputTestDataPath() {
 		String inputDataPath = properties.getProperty("testData");
 		if (inputDataPath != null)

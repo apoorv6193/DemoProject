@@ -3,7 +3,7 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="test.TestNGTest"/>
+      <class name="test.TestScenarios"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
